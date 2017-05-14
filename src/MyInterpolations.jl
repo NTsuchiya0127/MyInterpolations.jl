@@ -14,6 +14,6 @@ function my_lin_interp(grid, vals)
     end
     return func
 end
-    export my_lin_interp
+export my_lin_interp
 end
 end
