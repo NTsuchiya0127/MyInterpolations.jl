@@ -1,3 +1,4 @@
+module MyInterpolations
 function my_lin_interp(grid, vals)
     function func(x)
         if x < grid[1]
@@ -16,4 +17,6 @@ function my_lin_interp(grid, vals)
         end
     end
     return func
+end
+    export my_lin_interp
 end
